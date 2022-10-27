@@ -1,0 +1,26 @@
+{
+  "name": "ca-tool-ogue-3.0",
+  "version": "1.0.0",
+  "description": "Inventory App Built with React and a GraphQL Database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-nelson10/ca-tool-ogue-3.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian-nelson10/ca-tool-ogue-3.0/issues"
+  },
+  "homepage": "https://github.com/brian-nelson10/ca-tool-ogue-3.0#readme",
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
